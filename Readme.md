@@ -27,13 +27,13 @@ Rocketium API is a Node.js application built with Express that allows you to man
 1. Clone the repository:
 
    ```bash
-   git clone git@github.com:naitikj9/Rocketium-Assignment.git
+   git@github.com:naitikj9/Rocketium.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd Rocketium-Assignment
+   cd Rocketium
    ```
 
 3. Install the required dependencies:
@@ -181,7 +181,7 @@ Naitik Jain
 
 ## GitHub Repository
 
-[https://github.com/naitikj9/Rocketium-Assignment](https://github.com/naitikj9/Rocketium-Assignment)
+[https://github.com/naitikj9/Rocketium](git@github.com:naitikj9/Rocketium.git)
 
 ## Postman Documentation
 
