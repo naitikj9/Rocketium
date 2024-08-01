@@ -187,7 +187,7 @@ Naitik Jain
 
 You can import the Postman collection from the following link:
 
-[Postman Collection]([https://api.postman.com/collections/36707684-a49167aa-f547-4b3c-96ed-219daea473c5?access_key=PMAT-01J473B2N4QE98KBZB7HYM7X6Y](https://www.postman.com/descent-module-geoscientist-17984189/workspace/rocketium/collection/36707684-a49167aa-f547-4b3c-96ed-219daea473c5?action=share&creator=36707684))
+[Postman Collection][<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/36707684-a49167aa-f547-4b3c-96ed-219daea473c5?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D36707684-a49167aa-f547-4b3c-96ed-219daea473c5%26entityType%3Dcollection%26workspaceId%3Da803abed-9c88-4e00-8874-518950ff8d80)
 
 ```
 
