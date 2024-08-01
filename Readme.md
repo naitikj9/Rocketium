@@ -187,7 +187,9 @@ Naitik Jain
 
 You can import the Postman collection from the following link:
 
-[Postman Collection](https://api.postman.com/collections/36707684-a49167aa-f547-4b3c-96ed-219daea473c5?access_key=PMAT-01J473B2N4QE98KBZB7HYM7X6Y)
+[Postman Collection]([https://api.postman.com/collections/36707684-a49167aa-f547-4b3c-96ed-219daea473c5?access_key=PMAT-01J473B2N4QE98KBZB7HYM7X6Y](https://www.postman.com/descent-module-geoscientist-17984189/workspace/rocketium/collection/36707684-a49167aa-f547-4b3c-96ed-219daea473c5?action=share&creator=36707684))
 
 ```
+
+
 
