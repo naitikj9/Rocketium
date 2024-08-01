@@ -1,0 +1,193 @@
+Here's the updated `README.md` file with your GitHub repository details:
+
+```markdown
+# Rocketium API
+
+## Overview
+
+Rocketium API is a Node.js application built with Express that allows you to manage user data. The API provides endpoints to fetch, add, update, and delete users. It also supports sorting and filtering of data.
+
+## Features
+
+- Fetch all user data with sorting and filtering.
+- Fetch user data by ID.
+- Add new users.
+- Update existing users.
+- Delete users.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone git@github.com:naitikj9/Rocketium-Assignment.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Rocketium-Assignment
+   ```
+
+3. Install the required dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Fetch the initial data:
+
+   ```bash
+   npm run fetch-data
+   ```
+
+### Running the Server
+
+To start the server, use the following command:
+
+```bash
+npm start
+```
+
+The server will be available at [http://localhost:3000](http://localhost:3000).
+
+## API Endpoints
+
+### Fetch All Data
+
+- **URL:** `/api/data`
+- **Method:** `GET`
+- **Query Parameters:**
+  - `sort`: Sorting criteria in the format `key:order` (e.g., `name:asc` or `version:desc`).
+  - `filter`: Filter keyword to search within the data.
+
+- **Response:**
+  ```json
+  {
+    "count": 100,
+    "data": [ ... ]
+  }
+  ```
+
+### Fetch Data by ID
+
+- **URL:** `/api/data/:id`
+- **Method:** `GET`
+- **URL Params:**
+  - `id`: The ID of the user to fetch.
+
+- **Response:**
+  ```json
+  {
+    "name": "Naitik Jain",
+    "language": "Haryanavi",
+    "id": "13SDFJSFNEOF3",
+    "bio": " HI ",
+    "version": 1.02
+  }
+  ```
+
+### Add a New User
+
+- **URL:** `/api/data`
+- **Method:** `POST`
+- **Request Body:**
+  ```json
+  {
+    "name": "John Doe",
+    "language": "English",
+    "id": "NEWUSERID",
+    "bio": "New user bio",
+    "version": 1.00
+  }
+  ```
+
+- **Response:**
+  ```json
+  {
+    "name": "John Doe",
+    "language": "English",
+    "id": "NEWUSERID",
+    "bio": "New user bio",
+    "version": 1.00
+  }
+  ```
+
+### Update an Existing User
+
+- **URL:** `/api/data/:id`
+- **Method:** `PUT`
+- **URL Params:**
+  - `id`: The ID of the user to update.
+
+- **Request Body:**
+  ```json
+  {
+    "name": "John Updated",
+    "language": "French",
+    "bio": "Updated bio",
+    "version": 1.01
+  }
+  ```
+
+- **Response:**
+  ```json
+  {
+    "name": "John Updated",
+    "language": "French",
+    "id": "NEWUSERID",
+    "bio": "Updated bio",
+    "version": 1.01
+  }
+  ```
+
+### Delete a User
+
+- **URL:** `/api/data/:id`
+- **Method:** `DELETE`
+- **URL Params:**
+  - `id`: The ID of the user to delete.
+
+- **Response:**
+  ```json
+  {
+    "name": "John Updated",
+    "language": "French",
+    "id": "NEWUSERID",
+    "bio": "Updated bio",
+    "version": 1.01
+  }
+  ```
+
+## Scripts
+
+- `npm start`: Starts the server.
+- `npm run fetch-data`: Fetches and saves the initial data from the remote URL.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+Naitik Jain
+
+## GitHub Repository
+
+[https://github.com/naitikj9/Rocketium-Assignment](https://github.com/naitikj9/Rocketium-Assignment)
+
+## Postman Documentation
+
+You can import the Postman collection from the following link:
+
+[Postman Collection](https://api.postman.com/collections/36707684-a49167aa-f547-4b3c-96ed-219daea473c5?access_key=PMAT-01J473B2N4QE98KBZB7HYM7X6Y)
+
+```
+
